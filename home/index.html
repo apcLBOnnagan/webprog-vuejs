@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My first Vue page</title>
+  <title>Personal Vue page</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/flexbox-grid.css?version=0.1">   
 </head>
@@ -54,7 +54,12 @@
               <td><img src="bored" alt="Moodeng" height="100"></td>
             </tr>
           </table>
+          <div id="app">
+            {{ message }} <br>
+            {{'Random number: ' + Math.ceil(Math.random()*6) }}
+          </div>
         </div>
+
 
     </aside>
     </main>
@@ -62,10 +67,7 @@
   </div>
 
 
-<div id="app">
-  {{ message }} <br>
-  {{'Random number: ' + Math.ceil(Math.random()*6) }}
-</div>
+
 
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 <script src="js/vue.js"></script>
