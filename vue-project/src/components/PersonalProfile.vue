@@ -1,0 +1,28 @@
+
+
+
+<template>
+    <p>
+        <br></br>
+        <div>About Me</div>
+        My name is Lance Benedict Onnagan, a second-year Computer Science student at Asia Pacific College. 
+        <br></br>
+        <div>Education</div>
+        I'm a second-year Computer Science student at Asia Pacific College and, previously studied at Sta. Clara Parish School. 
+        <br></br>
+        <div>IT experience</div>
+        My IT experience mainly comes from studying at APC, where I have become familiar with Python and Java programming languages. 
+        <br></br>
+        <div>Hobbies and Interest</div>
+        In my free time, I enjoy drawing so feel free to explore my picture gallery below.
+        <br></br>
+        <div>Goals in life</div>
+        I have not set specific goals in my life yet because I want to explore myself and the world to form a concrete goal.  
+        <br></br>
+        <br></br>
+        <div>Visit <a href="https://www.w3schools.com/html/" target="_blank">W3Schools HTML Tutorial</a> to learn more about HTML.<div>
+    </p>
+    </template>
+    
+    <script></script>
+    <style></style>
